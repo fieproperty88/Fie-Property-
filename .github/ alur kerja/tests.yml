@@ -1,12 +1,12 @@
 name: GitHub Actions CI
-on:
-  push:
+on: # Fie Property
+  push: # Consultant Business & Listing Rent&Sell Property
     branches: master
-  pull_request: []
-jobs:
-  tests:
+  pull_request: [Bargabung dengan kami]
+jobs: #Consultant & Rent&Sell 
+  tests: GitHub Aplikasi Web
     runs-on: ubuntu-latest
-    steps:
+    steps: # Tinjau lebih jauh
     - name: Set up Git repository
       uses: actions/checkout@v1
 
